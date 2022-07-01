@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-#include <studio.h>
+#include <stdio.h>
 
 /**
  * main - this is the main function print whether
