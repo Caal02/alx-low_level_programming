@@ -5,7 +5,7 @@
 /**
  * main - this is the main function print whether
  * the number stored in the variable n is positive or negative
- * Return: The value is zero 
+ * Return: The value is zero
  */
 int main(void)
 {
