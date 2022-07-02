@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
-#include <stdlib>
+#include <stdlib.h>
 /**
  * main - printing without usig puts and printf
  * Return: value of 1
