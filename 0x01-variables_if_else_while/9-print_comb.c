@@ -6,14 +6,13 @@
 int main(void)
 {
 	int a;
-	int b;
 
-	for (a = 48; a <= 57; a++)
+	for (a = 48; a <= 56; a++)
 	{
 	putchar(a);
 	putchar(44);
 	putchar(32);
 	}
-	putchar(10);
+	putchar(57);
 	return (0);
 }
