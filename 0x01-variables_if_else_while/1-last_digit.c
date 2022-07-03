@@ -19,7 +19,7 @@ int main(void)
 	{
 		printf("%d and is greater than 5", m);
 	}
-	else if (m == 0)
+	else if (m / 80 == 0)
 	{
 		printf("%d and is 0", m);
 	}
