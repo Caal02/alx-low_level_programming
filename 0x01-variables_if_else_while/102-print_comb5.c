@@ -7,20 +7,28 @@ int main(void)
 {
 	int a;
 	int b;
+	int c;
+	int d;
 
 	for (a = 48; a <= 57; a++)
 	{
-	putchar(48);
 	for (b = 48; b <= 57; b++)
 		{
 		putchar(a);
 		putchar(b);
-			if (a != 57 || b != 57)
-			{
-			putchar(44);
-			putchar(32);
-			}
+		putchar(32);
 		}
+	for (c = 48; c <= 57; c++)
+	{
+	for (d = 49; d <= 57; d++)
+		if (c != a && c != b  && d != a && d != b)
+		{
+		putchar(c);
+		putchar(d);
+		putchar(44);
+		putchar(32);
+		}
+	}
 	}
 	putchar(10);
 	return (0);
