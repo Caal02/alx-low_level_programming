@@ -9,27 +9,34 @@ int main(void)
 	int b;
 	int c;
 	int d;
+	int j;
+	int i;
 
-	for (a = 48; a <= 57; a++)
+	for (i = 0; i < 100; i++)
 	{
-	for (b = 48; b <= 57; b++)
+		a = i / 10;
+		b = i % 10;
+		for (j = 0; j < 100; j++)
 		{
-		putchar(a);
-		putchar(b);
-		putchar(32);
+			c = j / 10;
+			d = j % 10;
+			if (a < c || (a == c && b < d))
+			{
+				putchar(a + '0');
+				putchar(b + '0');
+				putchar(32);
+				putchar(c + '0');
+				putchar(d + '0');
+				if (!(a == 9 && b == 8))
+				{
+				putchar(44);
+				putchar(32);
+				}
+			}
 		}
-	for (c = 48; c <= 57; c++)
-	{
-	for (d = 49; d <= 57; d++)
-		if (c != a && c != b  && d != a && d != b)
-		{
-		putchar(c);
-		putchar(d);
-		putchar(44);
-		putchar(32);
-		}
-	}
 	}
 	putchar(10);
 	return (0);
 }
+}i:q!
+i
