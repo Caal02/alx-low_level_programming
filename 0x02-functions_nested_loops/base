@@ -1,17 +1,11 @@
-#include <stdio.h>
-#include <stdlib.h>
-/**
- * main - prints lower alphabets
- * Return: value of 0
- */
-int main(void)
-{
-	int i;
+#include "main.h"
 
-	for (i = 97; i <= 122; i++)
-	{
-	putchar(i);
-	}
-	putchar(10);
-	return (0);
+/**
+* print_sth -prints _putchar
+*
+* Return: no value
+*/
+void print_sth(void)
+{
+	_putchar("_putchar\n");
 }
