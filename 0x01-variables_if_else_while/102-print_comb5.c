@@ -38,5 +38,3 @@ int main(void)
 	putchar(10);
 	return (0);
 }
-}i:q!
-i
