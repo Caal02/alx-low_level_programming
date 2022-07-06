@@ -15,4 +15,5 @@ void print_sth(void)
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
+	_putchar('\n');
 }
