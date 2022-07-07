@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isalpha - checks alpha character
+ * print_sign - checks alpha character
  * @n: it is a character
  * Return: 1 0 -1 for signs + 0 -
  */
