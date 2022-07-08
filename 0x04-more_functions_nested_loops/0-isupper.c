@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *_isdigit - chace for a digit
+ *_isupper - chace for a digit
  * @c: integer
  * Return: 1 if it is digit 0 if it's not
  */
