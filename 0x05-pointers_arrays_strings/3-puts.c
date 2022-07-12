@@ -5,7 +5,7 @@
  *@str: integer vaue
  *Return: zero
  */
-void _puts(char *str);
+void _puts(char *str)
 {
 	_putchar(str);
 }
