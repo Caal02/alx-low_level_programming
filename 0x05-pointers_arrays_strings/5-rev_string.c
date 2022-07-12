@@ -5,7 +5,7 @@
  *@s: integer vaue
  *Return: zero
  */
-void rev_string
+void rev_string(char *s)
 {
 	int a;
 	int b;
