@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *void rev_string - update value of pointer
+ *rev_string - update value of pointer
  *@s: integer vaue
  *Return: zero
  */
