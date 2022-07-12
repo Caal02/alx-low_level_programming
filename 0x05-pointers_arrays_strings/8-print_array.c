@@ -8,9 +8,8 @@
 void print_array(int *a, int n)
 {
 	int f, i;
-	int c[n];
 
-	i = c[n];
+	i = a[n];
 	for (f = 0; f < n - 1; f++)
 	{
 	_putchar(i);
