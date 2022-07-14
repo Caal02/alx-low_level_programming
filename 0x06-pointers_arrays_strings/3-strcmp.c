@@ -1,22 +1,15 @@
 #include "main.h"
+#include <string.h>
 /**
- * _strcat - cocnate two strings
- * @dest: char type
- * @src: char type
- * Return: dest
+ * _strcmp - cocnate two strings
+ * @s1: char type
+ * @s2: char
+ * Return: value
  */
-char *_strcat(char *dest, char *src)
+int _strcmp(char *s1, char *s2)
 {
-	int l = 0;
-	int i;
+	int a;
 
-	while (dest[l])
-		l++;
-	for (i = 0; src[i] != '\0'; i++)
-	{
-		dest[l] = src[i];
-		l += 1;
-	}
-	dest[l] = '\0';
-	return (dest);
+	a = strcmp(s1, s2);
+	return (a);
 }
