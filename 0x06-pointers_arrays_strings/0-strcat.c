@@ -7,6 +7,6 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	_putchar('dest' + 'scr');
+	_putchar(src);
 	return (dest);
 }
