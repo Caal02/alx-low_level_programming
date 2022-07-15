@@ -16,10 +16,3 @@ char *string_toupper(char *x)
 	}
 	return (x);
 }
-
-
-
-
-
-
-
