@@ -1,22 +1,24 @@
 #include "main.h"
 /**
- * _strcat - cocnate two strings
- * @dest: char type
- * @src: char type
- * Return: dest
+ * reverse_array- cocnate two strings
+ * @a: int type
+ * @n: int type
  */
-char *_strcat(char *dest, char *src)
+void reverse_array(int *a, int n)
 {
-	int l = 0;
-	int i;
+	int *p, i, aux, k;
+int *p, i, aux, k;
 
-	while (dest[l])
-		l++;
-	for (i = 0; src[i] != '\0'; i++)
+	p = a;
+	for (i = 1; i < n; i++)
 	{
-		dest[l] = src[i];
-		l += 1;
+		p++;
 	}
-	dest[l] = '\0';
-	return (dest);
+	for (k = 0; k < i / 2; k++)
+	{
+		aux = a[k];
+		a[k] = *p;
+		*p = aux;
+		p--;
+	}
 }

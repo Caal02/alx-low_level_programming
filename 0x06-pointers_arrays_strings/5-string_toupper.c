@@ -1,22 +1,27 @@
-#include "main.h"
+include "main.h"
 /**
- * _strcat - cocnate two strings
- * @dest: char type
- * @src: char type
- * Return: dest
- */
-char *_strcat(char *dest, char *src)
+  * string_toupper - Changes all lowercase letters to uppercase
+  * @p: The string will be modified
+  * Return: char var
+  */
+char *string_toupper(char *p)
 {
-	int l = 0;
-	int i;
+	int a = 0;
 
-	while (dest[l])
-		l++;
-	for (i = 0; src[i] != '\0'; i++)
+	while (p[a])
 	{
-		dest[l] = src[i];
-		l += 1;
+		if (p[a] >= 97 && p[a] <= 122)
+		{
+			p[a] -= 32;
+		}
+		a++;
 	}
-	dest[l] = '\0';
-	return (dest);
+	return (p);
 }
+
+
+
+
+
+
+

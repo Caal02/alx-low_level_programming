@@ -1,22 +1,25 @@
 #include "main.h"
+#include <stdio.h>
 /**
- * _strcat - cocnate two strings
- * @dest: char type
- * @src: char type
- * Return: dest
- */
-char *_strcat(char *dest, char *src)
+  * cap_string - ...
+  * @s: ...
+  * Return: char value
+  */
+char *cap_string(char *s)
 {
-	int l = 0;
-	int i;
+	int a = 0, i;
+	int cspc = 13;
+	char spc[] = {32, 9, '\n', ',', ';', 46, '!', '?', '"', '(', ')', '{', '}'};
 
-	while (dest[l])
-		l++;
-	for (i = 0; src[i] != '\0'; i++)
+	while (s[a])
 	{
-		dest[l] = src[i];
-		l += 1;
+		i = 0;
+		while (i < cspc)
+		{
+			if ((a == 0 || s[a - 1] == spc[i]) && (s[a] >= 97 && s[a] <= 122))
+				s[a] -= 32;
+			i++;
+		a++;
 	}
-	dest[l] = '\0';
-	return (dest);
+	return (s);
 }
