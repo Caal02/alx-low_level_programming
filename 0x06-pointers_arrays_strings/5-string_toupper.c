@@ -4,17 +4,17 @@ include "main.h"
   * @p: The string will be modified
   * Return: char var
   */
-char *string_toupper(char *p)
+char *string_toupper(char *x)
 {
 	int i = 0;
 
-	while (p[i])
+	while (x[i])
 	{
-		if (p[i] >= 97 && p[i] <= 122)
-			p[i] = p[i] - 32;
+		if (x[i] >= 97 && x[i] <= 122)
+			x[i] = x[i] - 32;
 			i++;
 	}
-	return (p);
+	return (x);
 }
 
 
