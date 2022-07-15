@@ -6,15 +6,13 @@ include "main.h"
   */
 char *string_toupper(char *p)
 {
-	int a = 0;
+	int i = 0;
 
-	while (p[a])
+	while (p[i])
 	{
-		if (p[a] >= 97 && p[a] <= 122)
-		{
-			p[a] -= 32;
-		}
-		a++;
+		if (p[i] >= 97 && p[i] <= 122)
+			p[a] = p[i] - 32;
+			i++;
 	}
 	return (p);
 }
