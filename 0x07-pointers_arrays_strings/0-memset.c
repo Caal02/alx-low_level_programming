@@ -4,7 +4,7 @@
  * _memset - fills memory with constant byet
  * @s: char type
  * @b: char type
- 8 @n: int type
+ * @n: int type
  * Return: value of s
  */
 char *_memset(char *s, char b, unsigned int n)
