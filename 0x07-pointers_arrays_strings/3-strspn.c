@@ -7,20 +7,20 @@
  */
 unsigned int _strspn(char *s, char *accept)
 {
-unsigned int a = 0, b, t = 0;
+	unsigned int a = 0, b, t = 0;
 
-while (accept[a])
-{
-	b = 0;
-	while (s[b] != 32)
+	while (accept[a])
 	{
-		if (accept[a] == s[b])
+		b = 0;
+		while (s[b] != 32)
 		{
-			t++;
+			if (accept[a] == s[b])
+			{
+				t++;
+			}
+			b++;
 		}
-		b++;
+		a++;
 	}
-	a++;
-}
-return (t)
+	return (t)
 }
