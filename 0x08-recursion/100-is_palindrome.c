@@ -31,9 +31,7 @@ int check_palindrome(char *s)
 	{
 		return (0);
 	}
-	/**
-	* return (1);
-	*/
+	return (1);
 }
 /**
   * _strlen_recursion - Get the length of a string
