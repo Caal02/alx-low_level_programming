@@ -26,13 +26,12 @@ int check_palindrome(char *s)
 	{
 		s++;
 		l--;
-		return (1);
 	}
 	else
 	{
 		return (0);
 	}
-
+	return(1);	
 }
 /**
   * _strlen_recursion - Get the length of a string
