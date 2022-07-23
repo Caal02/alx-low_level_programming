@@ -8,11 +8,17 @@
  */
 int main(int argc, char *argv[])
 {
+	int n;
+
 	if (argc != 3)
 	{
 		printf("Error\n");
 		return (1);
 	}
-	printf("%d", atio(argv[1]) * atio(argv[2]));
+	n = atio(argv[1]) * atio(argv[2]);
+	/**
+	 *printf("%d", atio(argv[1]) * atio(argv[2]));
+	 */
+	_putchar(n);
 	return (0);
 }
