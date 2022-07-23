@@ -5,7 +5,9 @@
   * @argv: char value
   * Return: value of zero
  */
-int main(void)
+int main(int argc, char *argv[])
 {
-
+	(void) argv;
+	printf("%d\n", argc - 1);
+	return (0);
 }
