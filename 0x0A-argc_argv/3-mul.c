@@ -8,14 +8,14 @@
  */
 int main(int argc, char *argv[])
 {
-	int n;
+	int a;
 
 	if (argc != 3)
 	{
 		printf("Error\n");
 		return (1);
 	}
-	n = atio(argv[1]) * atio(argv[2]);
+	a = atio(argv[1]) * atio(argv[2]);
 	/**
 	 *printf("%d", atio(argv[1]) * atio(argv[2]));
 	 */
