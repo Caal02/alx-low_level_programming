@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <main.h>
 /**
   * main - print name follwed by /n
   * @argc: int value
