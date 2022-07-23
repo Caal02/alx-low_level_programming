@@ -19,6 +19,6 @@ int main(int argc, char *argv[])
 	/**
 	 *printf("%d", atio(argv[1]) * atio(argv[2]));
 	 */
-	_putchar(n);
+	_putchar(a);
 	return (0);
 }
