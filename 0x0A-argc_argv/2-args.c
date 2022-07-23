@@ -5,7 +5,13 @@
   * @argv: char value
   * Return: value of zero
  */
-int main(void)
+int main(int argc, char *argv[])
 {
+	int i;
 
+	for (i = 0; i < argc; i++)
+	{
+		printf("%s\n", argv[i]);
+	}
+	return (0);
 }
