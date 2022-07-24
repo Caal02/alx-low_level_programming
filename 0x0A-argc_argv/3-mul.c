@@ -1,21 +1,29 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
-  * main - print name follwed by /n
-  * @argc: int value
-  * @argv: char value
-  * Return: value of zero
- */
+  * main - prints value of two numbers multiplied followed by a new line
+  * @argc: number of arguments passsed to program
+  * @argv: arrays of pointers to arguments
+  * Return: (0) if prog recieves 2 arguments
+  *         (1) if prog does not recieve two arguments
+  */
+
 int main(int argc, char *argv[])
 {
-	int b;
+	int num1, num2, product;
 
 	if (argc != 3)
 	{
 		printf("Error\n");
 		return (1);
 	}
-	b = atio(argv[1]) * atio(argv[2]);
-	printf("%d", b);
+
+	num1 = atoi(argv[1]);
+	num2 = atoi(argv[2]);
+	product = num1 * num2;
+
+	printf("%d\n", product);
+
 	return (0);
 }
