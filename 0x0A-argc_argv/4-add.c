@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-#inclued "main.h"
+#include "main.h"
 /**
   * main - print name follwed by /n
   * @argc: int value
