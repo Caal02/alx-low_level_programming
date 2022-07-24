@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "main.h"
 /**
   * main - print name follwed by /n
   * @argc: int value
@@ -17,9 +16,6 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 	b = atio(argv[1]) * atio(argv[2]);
-	/**
-	 *printf("%d", atio(argv[1]) * atio(argv[2]));
-	 */
-	_putchar(b);
+	printf("%d", b);
 	return (0);
 }
