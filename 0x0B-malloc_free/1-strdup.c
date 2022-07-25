@@ -9,6 +9,23 @@
  */
 char *_strdup(char *str)
 {
+	char *p;
+	int a = 0, b = 1;
 
-	return (NULL);
+	if (str == NULL)
+		return (NULL);
+	while (str[b])
+	{
+		b++;
+	}
+	p = malloc((sizeof(char) * b) + 1);
+	if (p == NULL)
+		return (NULL);
+	while (a < b)
+	{
+		p[a] = str[a];
+		a++;
+	}
+	p[a] = '\0';
+	return (p);
 }
