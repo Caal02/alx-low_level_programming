@@ -14,7 +14,7 @@ int i, j;
 	if (argc != 3)
 	{
 		printf("Error\n");
-		exit(98); 
+		exit(98);
 	}
 	for (i = 1; i < argc; i++)
 	{
