@@ -55,7 +55,6 @@ void print_all(const char * const format, ...)
 {
 	int i, j, count;
 	va_list valist;
-
 	types difftypes[] = {
 		{'c', t_char},
 		{'i', t_integer},
@@ -67,11 +66,8 @@ void print_all(const char * const format, ...)
 	i = 0;
 	count = 0;
 	va_start(valist, format);
-
 	while (format != NULL && format[i])
-
 	{
-
 		j = 0;
 		while (j < 4)
 		{
