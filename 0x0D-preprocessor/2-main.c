@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
   * main - prints the name of compiled file
-  * Return - zero value in success
+  * Return: zero value in success
  */
 int main(void)
 {
