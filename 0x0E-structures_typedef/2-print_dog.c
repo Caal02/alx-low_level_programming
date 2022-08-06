@@ -4,7 +4,7 @@
   * print_dog - initalize the variable of struct dog
   * @d: pointer
  */
-void print_dog(struct dog *d);
+void print_dog(struct dog *d)
 {
 	if (d != NULL)
 	{
