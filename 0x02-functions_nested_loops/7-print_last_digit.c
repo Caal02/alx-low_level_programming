@@ -1,13 +1,14 @@
 #include "main.h"
 /**
-  *_abs - prints absolut value
-  *@int: param is value to be absolute
+  *print_last_digit - prints absolut value
+  *@a: param is value to be absolute
   *Return: int valure
  */
-int print_last_digit(int a);
+int print_last_digit(int a)
 {
+	a %= 10;
 	if (a < 0)
-		return (-a);
-	else
-		return (a);
+		a = -a;
+	_putchar(a + '0');
+	return (a);
 }
