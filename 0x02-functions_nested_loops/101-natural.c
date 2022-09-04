@@ -8,7 +8,7 @@ int main(void)
 {
 	int i, a, b, c;
 
-	for (i = 1; i < = 1024; i++)
+	for (i = 1; i <= 1024; i++)
 	{
 		if (i / 3 == 0)
 			a = i;
