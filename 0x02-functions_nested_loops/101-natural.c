@@ -4,7 +4,7 @@
   *Return: no value
  */
 
-int main(void);
+int main(void)
 {
 	int i, a, b, c;
 
