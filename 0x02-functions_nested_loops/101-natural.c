@@ -6,15 +6,12 @@
 
 int main(void)
 {
-	int i, a, b, c;
+	int i, c;
 
 	for (i = 1; i <= 1024; i++)
 	{
-		if (i / 3 == 0)
-			a = i;
-		if (i / 5 == 0)
-			b = i;
-		c = a + b;
+		if (i % 3 == 0 || i % 5 ==0)
+		c = c + i;
 	}
 		printf("%d\n", c);
 	return (0);
