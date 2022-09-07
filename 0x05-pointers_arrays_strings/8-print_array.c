@@ -12,8 +12,9 @@ void print_array(int *a, int n)
 
 	for (f = 0; f < n - 1; f++)
 	{
-	printf("%d", a[f]);
-	_putchar(44 + ' ');
+		printf("%d", a[f]);
+		_putchar(44);
+		printf(" ");
 	}
 	_putchar('\n');
 }
