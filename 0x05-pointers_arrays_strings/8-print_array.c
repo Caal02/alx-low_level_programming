@@ -1,5 +1,6 @@
 #include "main.h"
 #include <string.h>
+#include <stdio.h>
 /**
 * print_array - prints every character
 * @a: int value
@@ -11,7 +12,7 @@ void print_array(int *a, int n)
 
 	for (f = 0; f < n - 1; f++)
 	{
-	_putchar(a[n]);
+	printf("%d", a[n]);
 	_putchar(44 + ' ');
 	}
 	_putchar('\n');
