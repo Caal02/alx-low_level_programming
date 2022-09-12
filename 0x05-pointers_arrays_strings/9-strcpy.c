@@ -3,6 +3,7 @@
   *_strcpy - coyp src to dest
   *@dest: destination pointer
   *@src: source pointer
+  *Return: dest pointer
  */
 char *_strcpy(char *dest, char *src)
 {
